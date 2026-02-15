@@ -8,7 +8,7 @@
 body{
     margin:0;
     text-align:center;
-    font-family:'Comic Sans MS', cursive;
+    font-family: Arial, sans-serif;
     background: linear-gradient(45deg,#ff9a9e,#fad0c4,#fbc2eb,#a6c1ee);
     background-size:400% 400%;
     animation: bg 8s infinite alternate;
@@ -42,6 +42,13 @@ img{width:200px;margin-top:20px;}
 <body>
 
 <!-- PAGE 1 -->
+ <h1>Will you be my Valentine? please please? 😔</h1>
+
+<button onclick="firstAnswer('yes')">Yes 💕</button>
+<button onclick="firstAnswer('no')" id="noBtn1">No 😢</button>
+
+<br><br>
+<div id="nextQuestion"></div>
 <div class="page active" id="page1">
 <h1>Sara 💕</h1>
 <p>
